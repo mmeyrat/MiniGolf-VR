@@ -1,6 +1,6 @@
 #  MiniGolf VR
 
-As a school project, we created a virtual reality game using Unity. The game is intended for the Occulus Quest, and has only be tested on it.
+We created a virtual reality game using Unity, as part of a school project. The game is intended for the Occulus Quest, and has only be tested on it.
 
 ## Description
 
