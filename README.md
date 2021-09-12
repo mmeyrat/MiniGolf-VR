@@ -1,27 +1,30 @@
 #  MiniGolf VR
 
+As a school project, we created a virtual reality game using Unity. The game is intended for the Occulus Quest, and has only be tested on it.
+
 ## Description
 
-Nous avons réalisé un jeu en réalité virtuelle via le moteur de jeu Unity. Notre jeu consiste en un mini golf de trois trous.
-Le joueur se retrouve immergé sur un terrain contenant des parcours de mini golf et de la végétation. 
-Une fois muni du club de golf, le jouer peut aller taper la balle et franchir les obstacles. 
+The player is immersed in a field containing 3 mini-golf courses, and some vegetation. Once equipped with the golf club, the player can go hit the ball and overcome the obstacles. 
 
-## Aide Utilisateur
+At the begining of the game, a golf club is available on the left. To make a stroke, the player simply adjust the power of the club, point the ball in the desired direction and then hit the ball with the club.
 
-Une fois dans le jeu, le joueur peut se déplacer en avançant réellement, où il peut via les joysticks des manettes se déplacer et orienter la caméra.
-Le bouton Y de la manette gauche permet de désafficher l'interface et afficher l'interface lorque celle-ci n'y est plus.
-Le Grips des manettes permettent d'attraper le club de golf situé sur la gauche du joueur au début de la partie. 
-Le bouton B de la manette droite permet de remettre la balle à sa position de départ de parcours actuel.
-Le bouton A de la manette droite permet de changer l'orientation de la balle pour le tir.
-Les gachettes des manettes permettent d'augmenter (avec la manette droite) ou diminuer (avec la manette gauche) la puissance du tir. 
+The first course is a simple angle, the second one contains a jump with a springboard, and for the third course, the ball has to pass through a windmill without touching the wings. When the player makes a successful stroke, the ball is automatically teleported to the next course. 
 
-## Fonctionnalités
+Cubes are positioned on all courses and increase the score if they are hit by the ball.
 
-Dans ce jeu, vous pouvez vous balader à travers le terrain. Au début de la partie, un club de golf est disponible sur la gauche. Sur ce terrain, trois parcours de mini golf sont disponibles. Le premier est un simple angle, le second contient un saut avec un tremplin, et pour le troisième, il faut passer à travers un moulin sans toucher les ailes. 
-Pour tirer, il suffit de régler la puissance de tir du club, d'orienter la balle dans la direction voulue puis de taper la balle avec le club. Lorsque la balle entre dans le trou, un bruit se déclenche et elle est automatiquement téléportée au parcours suivant. 
-Sur les parcours, vous pourrez aussi retrouver des cubes. Les toucher avec la balle de golf fera augmentéun score. Le but est donc de finir les parcours en attrapant le plus de cubes. 
+## Controls
 
-## Vidéo
+- A : adjust the ball direction.
+- B : reset the ball to its initial position on the current course.
+- Y : toggle interface.
+- Right grip : catch the club with the right hand. 
+- Left grip : catch the club with the left hand. 
+- Right joystick : move the camera.
+- Left joystick : move the player.
+- Right trigger : increase the club's power.
+- Left trigger : decrease the club's power.
+
+## Video
 
 [![Overview video](https://img.youtube.com/vi/4oa6d6kKAao/0.jpg)](https://www.youtube.com/watch?v=4oa6d6kKAao)
 
