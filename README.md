@@ -4,18 +4,18 @@ We created a virtual reality game using Unity, as part of a school project. The 
 
 ## Description
 
-The player is immersed in a field containing 3 mini-golf courses, and some vegetation. Once equipped with the golf club, the player can go hit the ball and overcome the obstacles. 
+The player is immersed in a field containing a mini-golf course of 3 holes, and some vegetation. Once equipped with the golf club, the player can go hit the ball and overcome the obstacles. 
 
 At the begining of the game, a golf club is available on the left. To make a stroke, the player simply adjust the power of the club, point the ball in the desired direction and then hit the ball with the club.
 
-The first course is a simple angle, the second one contains a jump with a springboard, and for the third course, the ball has to pass through a windmill without touching the wings. When the player makes a successful stroke, the ball is automatically teleported to the next course. 
+The first hole is a simple angle, the second one contains a jump with a springboard, and for the third hole, the ball has to pass through a windmill without touching the wings. When the player makes a successful stroke, the ball is automatically teleported to the next hole. 
 
-Cubes are positioned on all courses and increase the score if they are hit by the ball.
+Cubes are positioned on the course and increase the score if they are hit by the ball.
 
 ## Controls
 
 - A : adjust the ball direction.
-- B : reset the ball to its initial position on the current course.
+- B : reset the ball to its initial position on the current hole.
 - Y : toggle interface.
 - Right grip : catch the club with the right hand. 
 - Left grip : catch the club with the left hand. 
