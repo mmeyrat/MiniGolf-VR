@@ -2,9 +2,11 @@
 
 We created a virtual reality game using Unity, as part of a school project. The game is intended for the Occulus Quest, and has only be tested on it.
 
+[Download the demo](https://github.com/mmeyrat/MiniGolf-VR/releases/tag/Demo)
+
 ## Description
 
-The player is immersed in a field containing a mini-golf course of 3 holes, and some vegetation. Once equipped with the golf club, the player can go hit the ball and overcome the obstacles. 
+The player is immersed in a mini-golf field containing a 3-hole course, and some vegetation. Once equipped with the golf club, the player can go hit the ball and overcome the obstacles. 
 
 At the begining of the game, a golf club is available on the left. To make a stroke, the player simply adjust the power of the club, point the ball in the desired direction and then hit the ball with the club.
 
