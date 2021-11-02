@@ -4,56 +4,6 @@ We created a virtual reality game using Unity, as part of a school project. The 
 
 [Download the demo](https://github.com/mmeyrat/MiniGolf-VR/releases/tag/Demo)
 
-## Contribution Standards
-
-Formatting is super importand and is hard to be consistent. Please use the below formatting (or at least try as much as you can)
-
--Please use the camel case with the initial character lower case for variables. For example:
-isTextDisplayed = good
-IsTextDisplayed = bad
-is_text_dispayed = bad
-
--Use camel case with initial character upper case for functions. For example:
-FixedUpdate() = good
-fixedUpdate() = bad
-fixed_update() = bad
-
--Use wrap around curly brackets when using functions. For example:
-FixedUpdate(){  = Good
-    ....
-}
-
-FixedUpdate(){ ... } = Bad
-
-FixedUpdate() = Bad
-{ 
-    ... 
-}
-
-Also try and keep sections of code arranged without returns, unless it makes sense to break it up. Please use one tab or 4 spaces when indenting and please try and keep functions ending curly bracket in line with the calling 'if' statement. If there is many if statements, to make it easier to scan through the code, please do it like this:
-
-if(...){
-    if(...){
-        ...
-    }
-    if(...){
-        ...
-    }
-}
-if(...){
-    ...
-}
-if(...){
-    ...
-}
-
-Finally, please do not use magic numbers (ie. hard coded integers / floats). Please make them public so other programmers can easily change them. For example:
-
-public class Rotor : MonoBehaviour
-
-## Code of Conduct
-
-Be respectful to other contributors as well as moderators. No disrespectful comments regarding race, religious preference, sexual orientation, gender identity, military status or age will be tolerated. Any violation of the previously mentioned terms can result in being banned from any further contributing to this project. Please follow the contribution standards (above) when contributing or your contribution may be rejected with a comment to "please change your contribution to follow the contribution standards."
 
 ## Description
 
@@ -80,6 +30,75 @@ Cubes are positioned on the course and increase the score if they are hit by the
 ## Video
 
 [![Overview video](https://img.youtube.com/vi/4oa6d6kKAao/0.jpg)](https://www.youtube.com/watch?v=4oa6d6kKAao)
+
+## Contribution Standarts
+
+Formatting is super important and is hard to be consistent. Please use the below formatting (or at least try as much as you can).
+
+- Please use the camel case with the initial character lower case for variables.  
+For example :
+```
+isTextDisplayed → Good
+IsTextDisplayed → Bad
+is_text_dispayed → Bad
+```
+
+- Use camel case with initial character upper case for functions.  
+For example :
+```
+FixedUpdate() → Good
+fixedUpdate() → Bad
+fixed_update() → Bad
+```
+
+- Use wrap around curly brackets when using functions.  
+For example :
+```
+FixedUpdate() {
+	...
+}
+→ Good
+
+FixedUpdate() { ... }
+→ Bad
+
+FixedUpdate()
+{ 
+	... 
+}
+→ Bad
+```
+
+- Also try and keep sections of code arranged without returns, unless it makes sense to break it up. Please use one tab or 4 spaces when indenting and please try and keep functions ending curly bracket in line with the calling "if" statement. If there is many if statements, to make it easier to scan through the code, please do it like this :
+
+```
+if(...) {
+	if(...) {
+		...
+	}
+	if(...) {
+		...
+	}
+}
+
+if(...) {
+	...
+}
+
+if(...) {
+	...
+}
+```
+
+- Finally, please do not use magic numbers (i.e. hard coded integers / floats). Please make them public so other programmers can easily change them.  
+For example :
+```
+public class Rotor : MonoBehaviour
+```
+
+## Code of Conduct
+
+Be respectful to other contributors as well as moderators. No disrespectful comments regarding race, religious preference, sexual orientation, gender identity, military status or age will be tolerated. Any violation of the previously mentioned terms can result in being banned from any further contributing to this project. Please follow the contribution standards (above) when contributing or your contribution may be rejected with a comment to "please change your contribution to follow the contribution standards."
 
 ----
 
